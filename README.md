@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# APP REACT USING FETCH
 
 **El objetivo de este proyecto es crear un catalogo con REACT. Usando una lista de productos obtenidos de una API. Además se cuenta con un formulario para poder cargar productos propios al catalogo.**
 
