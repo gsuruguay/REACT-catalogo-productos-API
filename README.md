@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**El objetivo de este proyecto es crear un catalogo con REACT. Usando una lista de productos obtenidos de una API. Además se cuenta con un formulario para poder cargar productos propios al catalogo.**
 
 ## Available Scripts
 

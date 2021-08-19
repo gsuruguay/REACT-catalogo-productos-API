@@ -1,0 +1,46 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: rgba(32, 211, 151);
+    padding: .6rem 1rem;
+    width: 100%;
+  }
+  .nav-container{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+  }
+  .navbar a{
+    text-decoration: none;
+    color: white;
+  }
+  .navbar-logo{
+    width: 2.2rem;
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  .linksNav{
+    padding-right: .5rem;
+    padding-left: .5rem;
+    margin-right: 3.1rem;
+  }
+  .linksNav a:hover{
+    color: rgb(138, 43, 226); 
+  }
+  .nameEmpresa{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+  .active{
+    border-bottom: 3px solid white;
+    padding-right: 0!important;
+    padding-left: 0!important;
+  }
