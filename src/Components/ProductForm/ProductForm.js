@@ -33,19 +33,19 @@ class ProductForm extends React.Component {
                 <fieldset>
                     <legend>Add a new product</legend>
                     <div className="col-md-6">
-                        <input className="form-control" type="text" placeholder="Title" name="title" value={this.state.title} onChange={this.onChange} />
+                        <input className="form-control" type="text" maxLength="100" placeholder="Title" name="title" value={this.state.title} onChange={this.onChange} requerid/>
                     </div>
                     <div className="col-md-6">
-                        <input className="form-control" type="text" placeholder="Url image" name="image" value={this.state.image} onChange={this.onChange} />
+                        <input className="form-control" type="text" maxLength="200" placeholder="Url image" name="image" value={this.state.image} onChange={this.onChange} />
                     </div>
                     <div className="col-md-6">
-                        <input className="form-control" type="text" placeholder="Description" name="description" value={this.state.description} onChange={this.onChange} />
+                        <input className="form-control" type="text" maxLength="300" placeholder="Description" name="description" value={this.state.description} onChange={this.onChange} requerid/>
                     </div>
                     <div className="col-md-6">
-                        <input className="form-control" type="text" placeholder="Price" name="price" value={this.state.price} onChange={this.onChange} />
+                        <input className="form-control" type="number" min="0" max="99999" step="0.01" placeholder="Price" name="price" value={this.state.price} onChange={this.onChange} requerid/>
                     </div>
                     <div className="col-md-6">
-                        <input className="form-control" type="text" placeholder="Category" name="category" value={this.state.category} onChange={this.onChange} />
+                        <input className="form-control" type="text" maxLength="30" placeholder="Category" name="category" value={this.state.category} onChange={this.onChange} requerid/>
                     </div>
                 </fieldset>
                 <button className="btn" type="submit">Submit</button>
