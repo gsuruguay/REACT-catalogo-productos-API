@@ -28,7 +28,7 @@ class App extends React.Component {
       id: this.state.products.length
     }
     this.setState({
-      products: [...this.state.products, newProduct]
+      products: [newProduct, ...this.state.products]
     })
   }
 
